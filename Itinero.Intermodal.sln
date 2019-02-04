@@ -11,6 +11,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B6DB768C-3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Itinero.Intermodal.Test.Functional", "test\Itinero.Intermodal.Test.Functional\Itinero.Intermodal.Test.Functional.csproj", "{33EEA91B-DF54-4B82-9CC3-05E61429E7A5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{20811728-03FA-41FF-9258-B195C2E416E9}"
+ProjectSection(SolutionItems) = preProject
+	Itinero.Intermodal.sln = Itinero.Intermodal.sln
+	README.md = README.md
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
