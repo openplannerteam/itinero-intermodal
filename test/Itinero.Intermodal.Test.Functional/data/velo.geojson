@@ -1,0 +1,2728 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2019-02-16T19:56:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/569753208",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Hollebeek",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "283",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.3718267,
+              51.1817057
+            ],
+            [
+              4.3718181,
+              51.1816712
+            ],
+            [
+              4.3720192,
+              51.1816516
+            ],
+            [
+              4.3720278,
+              51.1816861
+            ],
+            [
+              4.3718267,
+              51.1817057
+            ]
+          ]
+        ]
+      },
+      "id": "way/569753208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357179926",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Park Spoor Noord 2",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "123",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4249355,
+          51.2290388
+        ]
+      },
+      "id": "node/357179926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/357181607",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "Stuivenbergplein",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "121",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4305338,
+          51.2274604
+        ]
+      },
+      "id": "node/357181607"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1320554837",
+        "amenity": "bicycle_rental",
+        "capacity": "21",
+        "name": "Cuperus",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "097",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.428829,
+          51.2027798
+        ]
+      },
+      "id": "node/1320554837"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1326346723",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "FOD Financiën",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "127",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4133641,
+          51.228255
+        ]
+      },
+      "id": "node/1326346723"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1328827956",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Waaslandtunnel",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "052",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4115777,
+          51.2281133
+        ]
+      },
+      "id": "node/1328827956"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1333740410",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "name": "Willemdok",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "133",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4113662,
+          51.2295295
+        ]
+      },
+      "id": "node/1333740410"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1411578530",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "MAS",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "134",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4057286,
+          51.228112
+        ]
+      },
+      "id": "node/1411578530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1436310116",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "Sint Andries",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "070"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3963442,
+          51.2148478
+        ]
+      },
+      "id": "node/1436310116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1682209845",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Den Bell",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "085"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3987483,
+          51.2057816
+        ]
+      },
+      "id": "node/1682209845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2411969002",
+        "amenity": "bicycle_rental",
+        "capacity": "35",
+        "name": "Sint-Norbertus",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4234742,
+          51.2259556
+        ]
+      },
+      "id": "node/2411969002"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2417638778",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "August Vermeylenlaan",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "144",
+        "website": "https://www.velo-antwerpen.be/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3786698,
+          51.2312671
+        ]
+      },
+      "id": "node/2417638778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2418981419",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Esmoreitlaan",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "142",
+        "website": "http://www.velo-antwerpen.be"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3825421,
+          51.23344
+        ]
+      },
+      "id": "node/2418981419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2518996768",
+        "amenity": "bicycle_rental",
+        "capacity": "32",
+        "name": "Statie",
+        "network": "Velo",
+        "note": "Velo has these coordinates wrong",
+        "operator": "Velo",
+        "ref": "022"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4306799,
+          51.199821
+        ]
+      },
+      "id": "node/2518996768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519517349",
+        "amenity": "bicycle_rental",
+        "capacity": "35",
+        "name": "Lange Nieuwstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "027"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4119492,
+          51.2195029
+        ]
+      },
+      "id": "node/2519517349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519521252",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "name": "Keizerstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "028"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4086597,
+          51.221488
+        ]
+      },
+      "id": "node/2519521252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519575297",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "name": "Melis Stokelaan",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "143"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.386179,
+          51.231146
+        ]
+      },
+      "id": "node/2519575297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519575298",
+        "amenity": "bicycle_rental",
+        "capacity": "34",
+        "name": "Jachthaven LO",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "140"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.391627,
+          51.2314227
+        ]
+      },
+      "id": "node/2519575298"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519575299",
+        "amenity": "bicycle_rental",
+        "capacity": "35",
+        "name": "Sint - Anna",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "141"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3868754,
+          51.2352526
+        ]
+      },
+      "id": "node/2519575299"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519960861",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Sint-Laureiskaai",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "137",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.405685,
+          51.2297354
+        ]
+      },
+      "id": "node/2519960861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519964999",
+        "amenity": "bicycle_rental",
+        "capacity": "21",
+        "name": "Londenstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "139",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4126694,
+          51.2310535
+        ]
+      },
+      "id": "node/2519964999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519965003",
+        "amenity": "bicycle_rental",
+        "capacity": "22",
+        "name": "Amsterdamstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "138",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.403533,
+          51.2311839
+        ]
+      },
+      "id": "node/2519965003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519974189",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Godefriduskaai",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "129",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4089858,
+          51.2280913
+        ]
+      },
+      "id": "node/2519974189"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519979203",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Lange Dijk",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "126",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4190158,
+          51.22805
+        ]
+      },
+      "id": "node/2519979203"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2519984318",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "name": "Dambrugge",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "118",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4222474,
+          51.2271421
+        ]
+      },
+      "id": "node/2519984318"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520031123",
+        "amenity": "bicycle_rental",
+        "capacity": "23",
+        "name": "Park Spoor Noord 1",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "124",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4194136,
+          51.2299216
+        ]
+      },
+      "id": "node/2520031123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520638591",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Militair Hospitaal",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "047",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4237095,
+          51.2014058
+        ]
+      },
+      "id": "node/2520638591"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520681540",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Belgiëlei",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "044"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.418194,
+          51.205721
+        ]
+      },
+      "id": "node/2520681540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520687214",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Falconplein",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "045",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4054976,
+          51.2268818
+        ]
+      },
+      "id": "node/2520687214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520881122",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Moorkensplein",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "107"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4340887,
+          51.213303
+        ]
+      },
+      "id": "node/2520881122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520881123",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "name": "Krugerpark",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "108"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4399686,
+          51.216023
+        ]
+      },
+      "id": "node/2520881123"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520881774",
+        "amenity": "bicycle_rental",
+        "capacity": "21",
+        "name": "Kerkstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "109"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4305135,
+          51.2185796
+        ]
+      },
+      "id": "node/2520881774"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2520887894",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Lamorinière",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "130",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4207636,
+          51.2038213
+        ]
+      },
+      "id": "node/2520887894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3140391054",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "name": "Station Dam",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "62",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.426978,
+          51.231828
+        ]
+      },
+      "id": "node/3140391054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3140471442",
+        "amenity": "bicycle_rental",
+        "capacity": "35",
+        "name": "Slachthuis",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "63",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.431567,
+          51.230014
+        ]
+      },
+      "id": "node/3140471442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3425942166",
+        "amenity": "bicycle_rental",
+        "capacity": "35",
+        "name": "Red Star Line",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "223",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4030503,
+          51.2333883
+        ]
+      },
+      "id": "node/3425942166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3832661575",
+        "amenity": "bicycle_rental",
+        "capacity": "21",
+        "name": "Pastorijstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "038"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4326735,
+          51.2201319
+        ]
+      },
+      "id": "node/3832661575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4529825253",
+        "amenity": "bicycle_rental",
+        "capacity": "35",
+        "name": "Havenhuis",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "ref": "221"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4084947,
+          51.2401329
+        ]
+      },
+      "id": "node/4529825253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653154827",
+        "amenity": "bicycle_rental",
+        "capacity": "33",
+        "name": "Velo 136 - Spoor-Noord Skatebowl",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "136",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4203882,
+          51.2314413
+        ]
+      },
+      "id": "node/4653154827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305546",
+        "amenity": "bicycle_rental",
+        "capacity": "33",
+        "name": "Station Luchtbal",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "206",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4231154,
+          51.2443679
+        ]
+      },
+      "id": "node/4653305546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305547",
+        "amenity": "bicycle_rental",
+        "capacity": "18",
+        "name": "Groenendaalcollege",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "218",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4358455,
+          51.2430061
+        ]
+      },
+      "id": "node/4653305547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305548",
+        "amenity": "bicycle_rental",
+        "capacity": "26",
+        "name": "Kerkhofblommen",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "214",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4330313,
+          51.2479566
+        ]
+      },
+      "id": "node/4653305548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305549",
+        "amenity": "bicycle_rental",
+        "capacity": "29",
+        "name": "Cultuurcentrum",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "211",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4371092,
+          51.2511682
+        ]
+      },
+      "id": "node/4653305549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305550",
+        "amenity": "bicycle_rental",
+        "capacity": "21",
+        "name": "Rode Loop",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "212"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4423411,
+          51.2507937
+        ]
+      },
+      "id": "node/4653305550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305551",
+        "amenity": "bicycle_rental",
+        "capacity": "17",
+        "name": "Kroonplein",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "213",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4481009,
+          51.2514325
+        ]
+      },
+      "id": "node/4653305551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305552",
+        "amenity": "bicycle_rental",
+        "capacity": "16",
+        "name": "Nieuwdreef",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "215",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4401005,
+          51.2466084
+        ]
+      },
+      "id": "node/4653305552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305553",
+        "amenity": "bicycle_rental",
+        "capacity": "15",
+        "name": "Zwembad Merksem",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "216",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4489765,
+          51.2472675
+        ]
+      },
+      "id": "node/4653305553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305554",
+        "amenity": "bicycle_rental",
+        "capacity": "8",
+        "name": "Joske Vermeulen",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "217",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4546629,
+          51.2491628
+        ]
+      },
+      "id": "node/4653305554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305555",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "Winkelstap",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "207",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4637051,
+          51.2533116
+        ]
+      },
+      "id": "node/4653305555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305556",
+        "amenity": "bicycle_rental",
+        "capacity": "29",
+        "name": "Ringlaan Atheneum",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "208",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4548343,
+          51.2544942
+        ]
+      },
+      "id": "node/4653305556"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305557",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "Melgeshof",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "209",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4471487,
+          51.2562979
+        ]
+      },
+      "id": "node/4653305557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305558",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "name": "Maantjessteenweg",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "210",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4357132,
+          51.2550668
+        ]
+      },
+      "id": "node/4653305558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305559",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "Venezuelastraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "203",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4231144,
+          51.253503
+        ]
+      },
+      "id": "node/4653305559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305560",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Squarepark",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "202",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4213914,
+          51.2572761
+        ]
+      },
+      "id": "node/4653305560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305561",
+        "amenity": "bicycle_rental",
+        "capacity": "20",
+        "name": "'t Dokske",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "220",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4473138,
+          51.2431242
+        ]
+      },
+      "id": "node/4653305561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4653305562",
+        "amenity": "bicycle_rental",
+        "capacity": "24",
+        "name": "Districtshuis Merksem",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "219",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4425978,
+          51.2420303
+        ]
+      },
+      "id": "node/4653305562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4703791677",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Middelheimmuseum",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "271",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4090482,
+          51.1807489
+        ]
+      },
+      "id": "node/4703791677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4747655098",
+        "amenity": "bicycle_rental",
+        "capacity": "31",
+        "name": "Loodswezen",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "135",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4022646,
+          51.2279455
+        ]
+      },
+      "id": "node/4747655098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4769444449",
+        "amenity": "bicycle_rental",
+        "capacity": "33",
+        "name": "Verbindingsdok Eilandje",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "225",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4076363,
+          51.2304275
+        ]
+      },
+      "id": "node/4769444449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4769444450",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Cadix-Oost",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "222",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4138338,
+          51.2332878
+        ]
+      },
+      "id": "node/4769444450"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4769444451",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Indiëstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "224",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4096052,
+          51.234434
+        ]
+      },
+      "id": "node/4769444451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4876847006",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Kinepolis",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "205"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4144185,
+          51.2448109
+        ]
+      },
+      "id": "node/4876847006"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5170169713",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Havana",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "201",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.420139,
+          51.260913
+        ]
+      },
+      "id": "node/5170169713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5170171671",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "Frans Adriaenssens / Joma",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "333",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.441796,
+          51.2545414
+        ]
+      },
+      "id": "node/5170171671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5170171672",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Campinia",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "304",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4338196,
+          51.2400537
+        ]
+      },
+      "id": "node/5170171672"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5170173729",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Gasstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "156"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4255056,
+          51.2260176
+        ]
+      },
+      "id": "node/5170173729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5296635778",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Luchtbal Winkelcentrum",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "204",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4208721,
+          51.2499633
+        ]
+      },
+      "id": "node/5296635778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5478717911",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Coöperatielaan",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "290",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.367797,
+          51.1762552
+        ]
+      },
+      "id": "node/5478717911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5577414272",
+        "amenity": "bicycle_rental",
+        "capacity": "27",
+        "name": "Amstel",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "227",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.444425,
+          51.2328211
+        ]
+      },
+      "id": "node/5577414272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466131",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Schaliemolen",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "319",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4052618,
+          51.1728175
+        ]
+      },
+      "id": "node/5584466131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466132",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Sneeuwbes",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "275",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4032458,
+          51.1743916
+        ]
+      },
+      "id": "node/5584466132"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466133",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Ahornen",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "277",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3997427,
+          51.1770695
+        ]
+      },
+      "id": "node/5584466133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466134",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Rozenkrans",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "302",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3904469,
+          51.1790952
+        ]
+      },
+      "id": "node/5584466134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466135",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Corbusier",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "276",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3940153,
+          51.1835388
+        ]
+      },
+      "id": "node/5584466135"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466136",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Edgard Castelein",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "293",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3909098,
+          51.1884432
+        ]
+      },
+      "id": "node/5584466136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466137",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Tentoonstellingswijk",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "297",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3889024,
+          51.1906511
+        ]
+      },
+      "id": "node/5584466137"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466139",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Wilrijksepleinen",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "300",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3976944,
+          51.1887962
+        ]
+      },
+      "id": "node/5584466139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466140",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Dikke Mee",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "270",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4041763,
+          51.1864377
+        ]
+      },
+      "id": "node/5584466140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584466141",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Campus Groenenborger",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "273",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4130073,
+          51.1757878
+        ]
+      },
+      "id": "node/5584466141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584492021",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Mastvest",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "296",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3930409,
+          51.1940864
+        ]
+      },
+      "id": "node/5584492021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584513231",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Ieperman",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "279",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3944742,
+          51.1681546
+        ]
+      },
+      "id": "node/5584513231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584513232",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "De Bist",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "274",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3947258,
+          51.1704673
+        ]
+      },
+      "id": "node/5584513232"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584513233",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Dokter Donny",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "340",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4056265,
+          51.168299
+        ]
+      },
+      "id": "node/5584513233"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584515823",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Oversnes",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "278",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3938973,
+          51.1653598
+        ]
+      },
+      "id": "node/5584515823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584522209",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Koornbloem",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "298",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3824707,
+          51.1719173
+        ]
+      },
+      "id": "node/5584522209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584522210",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Malisgoed",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "322",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.382108,
+          51.1669844
+        ]
+      },
+      "id": "node/5584522210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584522211",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Valkstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "332",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3854067,
+          51.1674668
+        ]
+      },
+      "id": "node/5584522211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584546425",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Den Tir",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "294",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3767161,
+          51.191009
+        ]
+      },
+      "id": "node/5584546425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584546426",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Kielpark",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "292",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.380979,
+          51.1907441
+        ]
+      },
+      "id": "node/5584546426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584546427",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Sporthal Kiel",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "295",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3793176,
+          51.1942976
+        ]
+      },
+      "id": "node/5584546427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5584552621",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Braem blokken",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "291",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3726705,
+          51.1885502
+        ]
+      },
+      "id": "node/5584552621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080228",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Krugerbrug",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "326",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3635343,
+          51.1874636
+        ]
+      },
+      "id": "node/5696080228"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080229",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Graspolder",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "312",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3425192,
+          51.1847182
+        ]
+      },
+      "id": "node/5696080229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080237",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Station Hoboken/Polderstad",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "286",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3481961,
+          51.182562
+        ]
+      },
+      "id": "node/5696080237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080238",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Hoge Beuken",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "285",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3528537,
+          51.1838713
+        ]
+      },
+      "id": "node/5696080238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080239",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "D.E. Van Damme",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "316",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3580398,
+          51.1817322
+        ]
+      },
+      "id": "node/5696080239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080240",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Steynstraat",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "284",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3641686,
+          51.1832723
+        ]
+      },
+      "id": "node/5696080240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080241",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Marmotteke",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "280",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3825686,
+          51.1766375
+        ]
+      },
+      "id": "node/5696080241"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080242",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Hof van Tichelen",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "281",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.385399,
+          51.1825069
+        ]
+      },
+      "id": "node/5696080242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080243",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "De Letter",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "282",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3809499,
+          51.1802526
+        ]
+      },
+      "id": "node/5696080243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080244",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Den Brem",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "320",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3756042,
+          51.1740369
+        ]
+      },
+      "id": "node/5696080244"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080245",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "Ridderveld",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "327",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3748143,
+          51.1772075
+        ]
+      },
+      "id": "node/5696080245"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080246",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Paul Vekemans",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "325",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3599817,
+          51.1748878
+        ]
+      },
+      "id": "node/5696080246"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080247",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Draaiboom",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "288",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3597899,
+          51.1773109
+        ]
+      },
+      "id": "node/5696080247"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080248",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Kioskplaats/Centrum",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "287",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3507442,
+          51.1774648
+        ]
+      },
+      "id": "node/5696080248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080249",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "'t Veer",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "339",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3321994,
+          51.1754083
+        ]
+      },
+      "id": "node/5696080249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080250",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Zaatlaan",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "331",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3386233,
+          51.1754965
+        ]
+      },
+      "id": "node/5696080250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080251",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Baron Sadoin",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "307",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3381257,
+          51.1720496
+        ]
+      },
+      "id": "node/5696080251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080252",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Cockerillhof",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "311",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.344032,
+          51.1743472
+        ]
+      },
+      "id": "node/5696080252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080253",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "De Torekens",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "309",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3494768,
+          51.1708652
+        ]
+      },
+      "id": "node/5696080253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080254",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Broydenborgpark",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "289",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3522523,
+          51.1735543
+        ]
+      },
+      "id": "node/5696080254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080264",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Meerlenhof",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "330",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3562273,
+          51.172285
+        ]
+      },
+      "id": "node/5696080264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080269",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "KDG Campus Hoboken",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "308",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3671714,
+          51.1710519
+        ]
+      },
+      "id": "node/5696080269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080270",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Schoonselhof",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "314",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3634357,
+          51.1691284
+        ]
+      },
+      "id": "node/5696080270"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080271",
+        "capacity": "30",
+        "name": "Sporthal Sorghvliedt",
+        "network": "Velo",
+        "operator": "Velo",
+        "ref": "310"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3534344,
+          51.1671922
+        ]
+      },
+      "id": "node/5696080271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696080272",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Verenigde Naties",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "337",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3532675,
+          51.1636916
+        ]
+      },
+      "id": "node/5696080272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5696130175",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Nieuw Zuid",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "342",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.3832566,
+          51.2060953
+        ]
+      },
+      "id": "node/5696130175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6020477807",
+        "amenity": "bicycle_rental",
+        "capacity": "30",
+        "name": "Opera",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "024",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4177498,
+          51.2179125
+        ]
+      },
+      "id": "node/6020477807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6020477808",
+        "amenity": "bicycle_rental",
+        "capacity": "36",
+        "name": "Roosevelt",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "011",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4183571,
+          51.2220736
+        ]
+      },
+      "id": "node/6020477808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6140704823",
+        "amenity": "bicycle_rental",
+        "capacity": "32",
+        "name": "Hospitaalplein",
+        "network": "Velo",
+        "operator": "Velo",
+        "operator:website": "https://www.velo-antwerpen.be/",
+        "operator:wikidata": "Q2413118",
+        "ref": "161",
+        "wikipedia": "nl:Velo Antwerpen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          4.4257281,
+          51.2035548
+        ]
+      },
+      "id": "node/6140704823"
+    }
+  ]
+}
