@@ -27,6 +27,7 @@ namespace Itinero.Intermodal
                         }
                     }
                     attributes.AddOrReplace("id", stopsReader.GlobalId);
+                    attributes.AddOrReplace("type", "stop");
                     stops.Add(new Route.Stop()
                     {
                         Shape = shape.Count,
@@ -53,7 +54,8 @@ namespace Itinero.Intermodal
                     }, 
                     new Route.Meta()
                     {
-                        Shape = shape.Count - 1
+                        Shape = shape.Count - 1,
+                        Attributes = new AttributeCollection(new Attribute("profile", "train"))
                     }
                 },
                 Stops = stops.ToArray()

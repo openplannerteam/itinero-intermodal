@@ -271,11 +271,8 @@ namespace Itinero.Intermodal
             var graph = routerDb.Network.GeometricGraph;
             var edge = graph.GetEdge(point.EdgeId);
 
-            float distance;
-            ushort profileId;
-            EdgeDataSerializer.Deserialize(edge.Data[0], out distance, out profileId);
-            Factor factor;
-            var edgeWeight = weightHandler.Calculate(profileId, distance, out factor);
+            EdgeDataSerializer.Deserialize(edge.Data[0], out var distance, out var profileId);
+            var edgeWeight = weightHandler.Calculate(profileId, distance, out var factor);
 
             var offset = point.Offset / (float)ushort.MaxValue;
             if (factor.Direction == 0)
