@@ -7,6 +7,9 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Events;
+using Serilog.Formatting.Json;
 
 namespace Itinero.Intermodal.API
 {
@@ -14,6 +17,15 @@ namespace Itinero.Intermodal.API
     {
         public static void Main(string[] args)
         {
+            var logFile = Path.Combine("logs", "log-.txt");
+            Log.Logger = new LoggerConfiguration()
+                .MinimumLevel.Debug()
+                .MinimumLevel.Override("Microsoft", LogEventLevel.Debug)
+                .Enrich.FromLogContext()
+                .WriteTo.File(new JsonFormatter(), logFile, rollingInterval: RollingInterval.Day)
+                .WriteTo.Console()
+                .CreateLogger();
+            
             CreateWebHostBuilder(args).Build().Run();
         }
 
