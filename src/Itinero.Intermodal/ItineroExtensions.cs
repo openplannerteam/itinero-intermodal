@@ -1,10 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using Itinero.Algorithms;
+using Itinero.Algorithms.Weights;
 using Itinero.Attributes;
+using Itinero.Data.Edges;
 using Itinero.Data.Network;
+using Itinero.Graphs.Geometric;
 using Itinero.IO.Json;
 using Itinero.LocalGeo.IO;
+using Itinero.Profiles;
 
 namespace Itinero.Intermodal
 {
@@ -255,6 +260,55 @@ namespace Itinero.Intermodal
             jsonWriter.WriteClose();
 
             jsonWriter.WriteClose();
+        }
+
+        /// <summary>
+        /// Converts the router point to paths leading to the closest 2 vertices, always returning paths, event if length zero.
+        /// </summary>
+        internal static EdgePath<T>[] ToEdgePathsComplete<T>(this RouterPoint point, RouterDb routerDb, WeightHandler<T> weightHandler, bool asSource)
+            where T : struct
+        {
+            var graph = routerDb.Network.GeometricGraph;
+            var edge = graph.GetEdge(point.EdgeId);
+
+            float distance;
+            ushort profileId;
+            EdgeDataSerializer.Deserialize(edge.Data[0], out distance, out profileId);
+            Factor factor;
+            var edgeWeight = weightHandler.Calculate(profileId, distance, out factor);
+
+            var offset = point.Offset / (float)ushort.MaxValue;
+            if (factor.Direction == 0)
+            { // bidirectional.
+                return new EdgePath<T>[] {
+                    new EdgePath<T>(edge.From, weightHandler.Calculate(profileId, distance * offset), -edge.IdDirected(), new EdgePath<T>()),
+                    new EdgePath<T>(edge.To, weightHandler.Calculate(profileId, distance * (1 - offset)), edge.IdDirected(), new EdgePath<T>())
+                };
+            }
+            else if (factor.Direction == 1)
+            { // edge is forward oneway.
+                if (asSource)
+                {
+                    return new EdgePath<T>[] {
+                        new EdgePath<T>(edge.To, weightHandler.Calculate(profileId, distance * (1 - offset)), edge.IdDirected(), new EdgePath<T>())
+                    };
+                }
+                return new EdgePath<T>[] {
+                        new EdgePath<T>(edge.From, weightHandler.Calculate(profileId, distance * offset), -edge.IdDirected(), new EdgePath<T>())
+                };
+            }
+            else
+            { // edge is backward oneway.
+                if (!asSource)
+                {
+                    return new EdgePath<T>[] {
+                        new EdgePath<T>(edge.To, weightHandler.Calculate(profileId, distance * (1 - offset)), edge.IdDirected(), new EdgePath<T>())
+                    };
+                }
+                return new EdgePath<T>[] {
+                        new EdgePath<T>(edge.From, weightHandler.Calculate(profileId, distance * offset), -edge.IdDirected(), new EdgePath<T>())
+                };
+            }
         }
     }
 }

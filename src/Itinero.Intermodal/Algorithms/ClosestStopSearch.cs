@@ -232,7 +232,7 @@ namespace Itinero.Intermodal.Algorithms
             }
             else
             { // on different edge, to the usual.
-                var paths = point.ToEdgePaths(_router.Db, _weightHandler, _backward);
+                var paths = point.ToEdgePathsComplete(_router.Db, _weightHandler, _backward);
                 if (_dykstra.TryGetVisit(paths[0].Edge, out var visit))
                 { // check if this one is better.
                     if (visit.Weight + paths[0].Weight < bestWeight)

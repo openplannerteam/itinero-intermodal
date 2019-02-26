@@ -99,23 +99,40 @@ namespace Itinero.Intermodal.Test.Functional
             var lille = new Coordinate(51.25979327802935f, 4.875869750976562f);
             var turnhout = new Coordinate(51.3202332109125f, 4.9339234828948975f);
             var tourEnTaxis = new Coordinate(50.86439661723841f, 4.348719120025635f);
-
-            var route = router.Calculate(router.Db.GetSupportedProfile("pedestrian.shortcut"),
-                antwerpen1, antwerpen2);
-            File.WriteAllText("route-antwerpen.json", route.ToGeoJson());
-
-            route = router.Calculate(router.Db.GetSupportedProfile("pedestrian.shortcut"),
-                brusselHermanTeir, brusselCentraal);
-            File.WriteAllText("route-brussel.json", route.ToGeoJson());
-            
+            var marcheEnFamenne = new Coordinate(50.23142236000259f, 5.333776473999023f);
+            var ieper = new Coordinate(50.85532180383167f, 2.860565185546875f);
+//
+//            var route = router.Calculate(router.Db.GetSupportedProfile("pedestrian.shortcut"),
+//                antwerpen1, antwerpen2);
+//            File.WriteAllText("route-antwerpen.json", route.ToGeoJson());
+//
+//            route = router.Calculate(router.Db.GetSupportedProfile("pedestrian.shortcut"),
+//                brusselHermanTeir, brusselCentraal);
+//            File.WriteAllText("route-brussel.json", route.ToGeoJson());
+//            
 
             var sourceLocation = antwerpen2;
             var targetLocation = brusselHermanTeir;
 
             var routeResult = router.TryCalculateIntermodal(transitDb, router.Db.GetSupportedProfile("pedestrian"),
                 sourceLocation, targetLocation);
-            var json = routeResult.Value.ToGeoJson();
-            File.WriteAllText("intermodal-route.json", routeResult.Value.ToGeoJson());
+            File.WriteAllText("intermodal-route1.json", routeResult.Value.ToGeoJson());
+
+            routeResult = router.TryCalculateIntermodal(transitDb, router.Db.GetSupportedProfile("pedestrian"),
+                antwerpen2, lille);
+            File.WriteAllText("intermodal-route2.json", routeResult.Value.ToGeoJson());
+
+            routeResult = router.TryCalculateIntermodal(transitDb, router.Db.GetSupportedProfile("pedestrian"),
+                turnhout, lille);
+            File.WriteAllText("intermodal-route3.json", routeResult.Value.ToGeoJson());
+
+            routeResult = router.TryCalculateIntermodal(transitDb, router.Db.GetSupportedProfile("pedestrian"),
+                turnhout, marcheEnFamenne);
+            File.WriteAllText("intermodal-route4.json", routeResult.Value.ToGeoJson());
+
+            routeResult = router.TryCalculateIntermodal(transitDb, router.Db.GetSupportedProfile("pedestrian"),
+                turnhout, ieper);
+            File.WriteAllText("intermodal-route5.json", routeResult.Value.ToGeoJson());
         }
     }
 }
