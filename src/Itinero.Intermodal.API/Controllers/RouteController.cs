@@ -36,7 +36,7 @@ namespace Itinero.Intermodal.API.Controllers
 
             if (parsedLocations.Count < 2)
             {
-                Log.Warning("Parsing locations failed.");
+                Log.Warning($"Parsing locations failed: {parsedLocations.Count}");
                 return NotFound();
             }
 
