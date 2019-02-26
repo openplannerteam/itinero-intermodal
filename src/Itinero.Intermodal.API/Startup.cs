@@ -1,8 +1,10 @@
 ﻿using System.IO;
+using System.Linq;
 using Itinero.Intermodal.API.Staging;
 using Itinero.Transit.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.HttpOverrides;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
